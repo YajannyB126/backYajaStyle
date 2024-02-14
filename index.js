@@ -9,11 +9,11 @@ app.use(bodyParser.json({ limit: '10mb' }))
 const bcrypt = require('bcrypt');
 
 const credentials = {
-	host: '127.0.0.1',
-	user: 'root',
-	password: '',
-	database: 'loginyajannydb',
-    port: 3308
+	host: 'localhost',
+	user: 'id21873451_root',
+	password: '2626Yaja#',
+	database: 'id21873451_loginyajannydb',
+    port: 3306
 }
 
 app.get('/', (req, res) => {
